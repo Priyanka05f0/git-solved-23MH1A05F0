@@ -21,17 +21,17 @@ const monitorConfig = {
 
 const config = monitorConfig[ENV];
 
-console.log('=================================');
+console.log(' ');
 console.log(`DevOps Simulator - Monitor`);
 console.log(`Environment: ${ENV}`);
 console.log(`Debug: ${config.debugMode ? 'ENABLED' : 'DISABLED'}`);
-console.log('=================================');
+console.log(' ');
 
 function checkSystemHealth() {
   const timestamp = new Date().toISOString();
   
   if (config.debugMode) {
-    console.log(`\n[${timestamp}] === DETAILED HEALTH CHECK ===`);
+    console.log(`\n[${timestamp}]   DETAILED HEALTH CHECK `);
   } else {
     console.log(`[${timestamp}] Checking system health...`);
   }
