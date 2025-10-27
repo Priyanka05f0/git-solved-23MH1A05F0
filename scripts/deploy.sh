@@ -4,9 +4,9 @@
 
 set -euo pipefail
 
-echo "================================================"
+echo 
 echo "DevOps Simulator - EXPERIMENTAL AI-POWERED DEPLOY"
-echo "================================================"
+echo 
 
 # Configuration
 DEPLOY_ENV="experimental"
@@ -71,8 +71,8 @@ if [ "$CHAOS_TESTING" = true ]; then
     # Chaos monkey logic
 fi
 
-echo "================================================"
+echo 
 echo "Experimental deployment completed!"
 echo "AI Dashboard: https://ai.example.com"
 echo "Multi-Cloud Status: https://clouds.example.com"
-echo "================================================"
+echo 
