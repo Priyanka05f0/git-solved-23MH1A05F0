@@ -1,28 +1,33 @@
-* d5d0da5 (conflict-simulator) docs: Add changelog
-* 8f877ea (origin/conflict-simulator) chore: to know about commit
-* d3dd9b2 (instructor/conflict-simulator) updating conflict-simulator
-| * a5b322e (origin/dev, dev) chore: gaining knowledge on commit
-| | * 8dc3892 (HEAD -> main, tag: v3.0.0, tag: v2.0.0, origin/main, origin/HEAD) docs: Add final project artifacts
-| | * 9e9b64c docs: Add changelog
-| | * 8ebf673 docs: Final review of documentation before submission
+* e1fe408 (HEAD -> main, origin/main, origin/HEAD) chore: Final review of documentation before submission
+* f5269e0 docs: Final Checkup and submission preparation
+* 295eb35 docs: Add final project artifacts
+* 8dc3892 (tag: v3.0.0, tag: v2.0.0) docs: Add final project artifacts
+* 9e9b64c docs: Add changelog
+* 8ebf673 docs: Final review of documentation before submission
+| * d5d0da5 (conflict-simulator) docs: Add changelog
+| * 8f877ea (origin/conflict-simulator) chore: to know about commit
+| * d3dd9b2 (instructor/conflict-simulator) updating conflict-simulator
+| | * a5b322e (origin/dev, dev) chore: gaining knowledge on commit
 | | | * dd6c7c9 (origin/feature/another-feature) feat: Add test feature
-| | |/  
-| | * 7705f59 (tag: v1.1.0, tag: v1.0.0, feature/another-feature) docs: Update README
-| | * 4270e33 feat: Add new feature
-| | * 39c343c docs: Add FAQ section
+| |_|/  
+|/| |   
+* | | 7705f59 (tag: v1.1.0, tag: v1.0.0, feature/another-feature) docs: Update README
+* | | 4270e33 feat: Add new feature
+* | | 39c343c docs: Add FAQ section
 | | | * b028b7a (origin/feature/new-feature, feature/new-feature) feat: Add new feature
 | | | * 9489d98 Save all resolved conflicts and updates before switching branch
 | | | * 5e4590f feat: Add new feature
-| | |/  
-| | * 21e0f94 merge: Resolve all conflicts between main and dev branches
-| | * 6ef2c90 merge: Resolve all conflicts between main and dev branches
-| | *   60bdf9f merge: Resolve all conflicts between main and dev branches
-| | |\  
+| |_|/  
+|/| |   
+* | | 21e0f94 merge: Resolve all conflicts between main and dev branches
+* | | 6ef2c90 merge: Resolve all conflicts between main and dev branches
+* | |   60bdf9f merge: Resolve all conflicts between main and dev branches
+|\ \ \  
 | | |/  
 | |/|   
 | * | 02011a5 (instructor/dev) updating dev
-|/ /  
-| * 0312c6f (instructor/main, instructor/HEAD) updating main
-| * fadfd24 Revise README for DevOps Simulator project
+| |/  
+* | 0312c6f (instructor/main, instructor/HEAD) updating main
+* | fadfd24 Revise README for DevOps Simulator project
 |/  
 * ae630eb Initial commit
