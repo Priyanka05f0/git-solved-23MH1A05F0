@@ -1,7 +1,6 @@
 \# My Git Mastery Challenge Journey
 
 
-
 \## Student Information
 
 \- Name: BETHAMPUDI LAKSHMI PRIYANKA
