@@ -245,7 +245,6 @@ what each side is trying to do before combining them. I now feel
 confident handling conflicts in real projects.
 
 
-
 The hands-on practice with all Git commands (especially rebase and 
 
 cherry-pick) was invaluable. I understand the difference between merge 
