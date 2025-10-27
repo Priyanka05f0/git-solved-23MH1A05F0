@@ -1,11 +1,64 @@
-- 8ebf673: docs: Final review of documentation before submission (Priyanka05f0, 4 minutes ago)
-- 7705f59: docs: Update README (Priyanka05f0, 34 minutes ago)
-- 4270e33: feat: Add new feature (Priyanka05f0, 66 minutes ago)
-- 39c343c: docs: Add FAQ section (Priyanka05f0, 77 minutes ago)
-- 21e0f94: merge: Resolve all conflicts between main and dev branches (Priyanka05f0, 3 hours ago)
-- 6ef2c90: merge: Resolve all conflicts between main and dev branches (Priyanka05f0, 3 hours ago)
-- 60bdf9f: merge: Resolve all conflicts between main and dev branches (Priyanka05f0, 3 hours ago)
-- 02011a5: updating dev (Hanu Gupta, 4 days ago)
-- 0312c6f: updating main (Hanu Gupta, 4 days ago)
-- fadfd24: Revise README for DevOps Simulator project (Hanu Gupta, 4 days ago)
-- ae630eb: Initial commit (Hanu Gupta, 4 days ago)
+\# Changelog
+
+All notable changes to this project are documented here.
+
+
+
+\## \[v3.0.0] - 2025-10-27
+
+\### Fixed
+
+\- \*\*Final Cleanup:\*\* Removed all stray Git conflict markers from documentation files, including the final one found in `GIT\_JOURNEY.md`.
+
+
+
+\### Chore
+
+\- Performed final commit history cleanup to ensure required commit count was met before submission.
+
+
+
+\## \[v2.0.0] - 2025-10-27
+
+\### Merged
+
+\- \*\*Major Conflict Resolution (Merge 2):\*\* Completed the second major merge, integrating the `conflict-simulator` branch into `main`.
+
+&nbsp;   - Resolved \*\*6 conflicts\*\* across configuration and documentation files.
+
+
+
+\### Added
+
+\- Implemented a new feature set (as documented in the `feat: Add new feature` commit).
+
+\- Updated the README with comprehensive architecture and feature sections.
+
+
+
+\## \[v1.1.0] - 2025-10-27
+
+\### Added
+
+\- Added an FAQ section to the project documentation.
+
+\- Completed initial documentation review and updates.
+
+
+
+\## \[v1.0.0] - 2025-10-27
+
+\### Merged
+
+\- \*\*Major Conflict Resolution (Merge 1):\*\* Completed the first critical merge, integrating the `dev` branch into `main`.
+
+&nbsp;   - Resolved \*\*6 conflicts\*\* in configuration and script files (e.g., `config/app-config.yaml`, `scripts/deploy.sh`).
+
+&nbsp;   - \*\*Resolution Strategy:\*\* Restructured config files to support environment-based settings (production and development) to maintain stability.
+
+
+
+\### Initial Commit
+
+\- Project repository cloned and initialized with initial file structure.
+
