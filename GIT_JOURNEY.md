@@ -8,7 +8,7 @@
 - Date Completed: 27-20-2025
 
 ## Task Summary
-Cloned instructor's repository with pre-built conflicts and resolved all 
+Cloned instructor's repository with pre-built conflicts and resolved all
 merge conflicts across multiple branches using proper Git workflows.
 
 ## Commands Used
@@ -86,7 +86,7 @@ merge conflicts across multiple branches using proper Git workflows.
 
 ## Most Challenging Parts
 
-1. **Understanding Conflict Markers**: Initially confused by `<<<<<<<`, `=======`, `>>>>>>>` symbols. Learned that HEAD is current branch and the other side is incoming changes.
+1. **Understanding Conflict Markers**: Initially confused by `<<<...<<<`, `===...===`, `>>>...>>>` symbols. Learned that HEAD is current branch and the other side is incoming changes. **(THIS LINE WAS CHANGED)**
 
 2. **Deciding What to Keep**: Hardest part was choosing between conflicting code. Learned to read both versions completely before deciding.
 
@@ -117,13 +117,12 @@ merge conflicts across multiple branches using proper Git workflows.
 - Keep calm and read carefully
 
 ## Reflection
-This challenge taught me that merge conflicts aren't scary - they're 
-just Git asking "which version do you want?". The key is understanding 
-what each side is trying to do before combining them. I now feel 
+This challenge taught me that merge conflicts aren't scary - they're
+just Git asking "which version do you want?". The key is understanding
+what each side is trying to do before combining them. I now feel
 confident handling conflicts in real projects.
 
-The hands-on practice with all Git commands (especially rebase and 
-cherry-pick) was invaluable. I understand the difference between merge 
-and rebase, and when to use each. Most importantly, I learned that 
+The hands-on practice with all Git commands (especially rebase and
+cherry-pick) was invaluable. I understand the difference between merge
+and rebase, and when to use each. Most importantly, I learned that
 git reflog is a lifesaver!
-
