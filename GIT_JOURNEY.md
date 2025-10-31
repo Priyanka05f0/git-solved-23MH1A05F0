@@ -82,7 +82,56 @@ merge conflicts across multiple branches using proper Git workflows.
 
 ### Merge 2: main + conflict-simulator (6 files)
 
-[Document the second set of conflicts similarly]
+#### Conflict 1: README.md
+
+* *Issue*: Both branches contained different project versions and feature sets.
+* *Resolution*: Unified all project details by keeping the experimental version (3.0.0) from conflict-simulator and combining stable production information from the main branch.
+* *Strategy*: Organized the README into clear sections for Production, Development, and Experimental features.
+* *Difficulty*: Medium
+* *Time*: 15 minutes
+
+#### Conflict 2: config/app-config.yaml
+
+* *Issue*: Production setup from main conflicted with testing setup from conflict-simulator (different ports, logging styles, and AI flags).
+* *Resolution*: Created a single YAML file supporting both environments with an additional experimental_mode flag.
+* *Strategy*: Merged stable configurations (host, logging) from main and advanced ones (multi-port, AI features) from conflict-simulator.
+* *Difficulty*: Hard
+* *Time*: 20 minutes
+
+#### Conflict 3: config/database-config.json
+
+* *Issue*: One branch used a simple production database, while the other used a distributed cluster setup.
+* *Resolution*: Merged both by creating a structure that supports distributed clusters along with fallback databases.
+* *Strategy*: Added nested objects for primary and replica databases to support both configurations.
+* *Difficulty*: Medium
+* *Time*: 10 minutes
+
+#### Conflict 4: docs/architecture.md
+
+* *Issue*: Both branches described different architectures — one traditional, one AI-integrated.
+* *Resolution*: Combined both into a single document with two sections — “Legacy Architecture” and “AI-Driven Architecture.”
+* *Strategy*: Preserved all important details from both branches and made the document more comprehensive.
+* *Difficulty*: Medium
+* *Time*: 15 minutes
+
+#### Conflict 5: scripts/deploy.sh
+
+* *Issue*: One script deployed normally, while the other added AI model setup and environment-based deployment.
+* *Resolution*: Integrated both by adding conditional logic for AI-enhanced deployment based on environment variables.
+* *Strategy*: Used if-else conditions to toggle between production and experimental AI deployment modes.
+* *Difficulty*: Hard
+* *Time*: 20 minutes
+
+#### Conflict 6: scripts/monitor.js
+
+* *Issue*: Different logging intervals and debug settings in both versions.
+* *Resolution*: Created a unified script that switches automatically between production and development settings.
+* *Strategy*: Used process.env.NODE_ENV to load environment-specific monitoring intervals and logging levels.
+* *Difficulty*: Medium
+* *Time*: 15 minutes
+
+---
+
 
 ## Most Challenging Parts
 
@@ -117,7 +166,7 @@ merge conflicts across multiple branches using proper Git workflows.
 - Keep calm and read carefully
 
 ## Reflection
-This challenge taught me that merge conflicts aren't scary - they're
+This challenge taught me that shoumerge conflicts aren't scary - they're
 just Git asking "which version do you want?". The key is understanding
 what each side is trying to do before combining them. I now feel
 confident handling conflicts in real projects.

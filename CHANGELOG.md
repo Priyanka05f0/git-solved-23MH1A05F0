@@ -28,10 +28,31 @@ All notable changes to this project are documented here.
 
 ## [v1.0.0] - 2025-10-27
 
+## [v3.0.1] - 2025-10-27
+
+### Synced
+
+* Used *git fetch (1 time)* to retrieve the latest updates from the instructor’s repository before final merge verification.
+* Used *git pull (1 time)* to integrate remote changes into the local branch before performing Merge 2.
+
+### Verified
+
+* Ensured all changes were successfully fetched and merged without overwriting local commits.
+* Confirmed synchronization by running git status and git log --oneline --graph.
+
+### Chore
+
+* Final verification of branches, tags, and commit count before project submission.
+* Ensured no pending files or unstaged changes remained.
+
+---
+
 ### Merged
 - **Major Conflict Resolution (Merge 1):** Completed the first critical merge, integrating the `dev` branch into `main`.
   - Resolved **6 conflicts** in configuration and script files (e.g., `config/app-config.yaml`, `scripts/deploy.sh`).
+
   - **Resolution Strategy:** Restructured config files to support environment-based settings (production and development) to maintain stability.
+
 
 ### Initial Commit
 - Project repository cloned and initialized with initial file structure.

@@ -1,4 +1,4 @@
-v1.0.0
-v1.1.0
-v2.0.0
-v3.0.0
+v1.0.0          Release 1.0.0: Resolved all conflicts
+v1.1.0          Release 1.1.0: Added all features
+v2.0.0          Release v2.0.0: Six merge conflicts resolved and history cleanaed.
+v3.0.0          Release v3.0.0: Final submission readiness, all quantitative metrics met.

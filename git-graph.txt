@@ -1,20 +1,35 @@
-* e1fe408 (HEAD -> main, origin/main, origin/HEAD) chore: Final review of documentation before submission
-* f5269e0 docs: Final Checkup and submission preparation
-* 295eb35 docs: Add final project artifacts
-* 8dc3892 (tag: v3.0.0, tag: v2.0.0) docs: Add final project artifacts
-* 9e9b64c docs: Add changelog
-* 8ebf673 docs: Final review of documentation before submission
-| * d5d0da5 (conflict-simulator) docs: Add changelog
-| * 8f877ea (origin/conflict-simulator) chore: to know about commit
-| * d3dd9b2 (instructor/conflict-simulator) updating conflict-simulator
-| | * a5b322e (origin/dev, dev) chore: gaining knowledge on commit
-| | | * dd6c7c9 (origin/feature/another-feature) feat: Add test feature
+* 06bbbe8 Main side change 3
+| * 56f554d Simulated conflict 3
+|/  
+*   97a2e57 Merge branch 'conflict-simulator'
+|\  
+| * d5d0da5 docs: Add changelog
+| * 8f877ea chore: to know about commit
+| * d3dd9b2 updating conflict-simulator
+* | 6af7f93 fix: Remove literal conflict markers from documentation
+* | 77564d0 docs: Corrected CHANGELOG.md format to meet evaluation standards
+* | d31ff2a fix: Removed stray conflict marker from GIT_JOURNEY.md
+* | 683f8c5 fix: Removed stray conflict marker from GIT_JOURNEY.md
+* | f676a10 fix: Removed stray conflict marker from GIT_JOURNEY.md
+* | a444a75 fix: Removed stray conflict marker from GIT_JOURNEY.md
+* | 7ea2958 chore: Finalizing commit history to meet submission count
+* | 28b750f chore: Final project cleanup before push
+* | 85877d3 chore: Ensuring final commit count meets submission requirements
+* | be869bb docs: Final project artifacts complete (Checkpoint 3 verification)
+* | e1fe408 chore: Final review of documentation before submission
+* | f5269e0 docs: Final Checkup and submission preparation
+* | 295eb35 docs: Add final project artifacts
+* | 8dc3892 docs: Add final project artifacts
+* | 9e9b64c docs: Add changelog
+* | 8ebf673 docs: Final review of documentation before submission
+| | * a5b322e chore: gaining knowledge on commit
+| | | * dd6c7c9 feat: Add test feature
 | |_|/  
 |/| |   
-* | | 7705f59 (tag: v1.1.0, tag: v1.0.0, feature/another-feature) docs: Update README
+* | | 7705f59 docs: Update README
 * | | 4270e33 feat: Add new feature
 * | | 39c343c docs: Add FAQ section
-| | | * b028b7a (origin/feature/new-feature, feature/new-feature) feat: Add new feature
+| | | * b028b7a feat: Add new feature
 | | | * 9489d98 Save all resolved conflicts and updates before switching branch
 | | | * 5e4590f feat: Add new feature
 | |_|/  
@@ -25,9 +40,9 @@
 |\ \ \  
 | | |/  
 | |/|   
-| * | 02011a5 (instructor/dev) updating dev
+| * | 02011a5 updating dev
 | |/  
-* | 0312c6f (instructor/main, instructor/HEAD) updating main
+* | 0312c6f updating main
 * | fadfd24 Revise README for DevOps Simulator project
 |/  
 * ae630eb Initial commit
